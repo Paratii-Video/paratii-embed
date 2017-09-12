@@ -1,2 +1,2 @@
 # paratii-embed
-playing with embedding the player
+playing with embedding the player!
