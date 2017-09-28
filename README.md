@@ -1,28 +1,29 @@
-# paratii-embed
-playing with embedding the player!
+## Embedding and Sharing the player and oEmbed service
+### Embeddiing
+The player is optimized for **embedding** into iframe using a specific address:
 
+http://localhost:3000/embed/video_id
 
+Embedding customizer is available within the app.
+The customizer manages: fullscreen capability, autoplay flag, loop flag, sizes type (mini or tiny), playinline (iOS) flag
 
-**Custom video player on Facebook** - don't work
+	`<iframe webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="http://localhost:3000/embed/7?autoplay=1&loop=1&playinline=1" width="570" height="320"></iframe>`
 
-https://paratii-video.github.io/paratii-embed/og-embed.html
+Showcase:
 
------------
+https://paratii-video.github.io/paratii-embed/embedding.html
 
-**Direct video source on IPFS gateway on Facebook** - it works
+### Sharing
 
-https://paratii-video.github.io/paratii-embed/og-ipfs-embed.html
+**twitter card**
+**facebook og**
 
------------
+Showcase:
 
-**Custom video player on Twitter** - it works
+https://paratii-video.github.io/paratii-embed/sharing.html
 
-https://paratii-video.github.io/paratii-embed/tc-ipfs-iframe-embed.html
+### oEmbed
 
------------
+Showcase:
 
-**Direct video source on IPFS gateway on Twitter** - it works
-
-https://paratii-video.github.io/paratii-embed/tc-ipfs-embed.html
-
------------
+https://paratii-video.github.io/paratii-embed/oEmbed.html
