@@ -1,5 +1,5 @@
 ## Embedding and Sharing the player and oEmbed service
-### Embeddiing
+### Embedding
 The player is optimized for **embedding** into iframe using a specific address:
 
 http://localhost:3000/embed/video_id
@@ -16,6 +16,7 @@ https://paratii-video.github.io/paratii-embed/embedding.html
 ### Sharing
 
 **twitter card**
+
 **facebook og**
 
 Showcase:
