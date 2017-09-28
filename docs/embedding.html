@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>Embedding playground - Paratii media player</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
@@ -28,28 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+        <a class="navbar-brand" href="embedding.html">Embedding playground</a>
     </nav>
 
     <!-- Page Header -->
@@ -58,11 +38,9 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>Man must explore, and this is exploration at its greatest</h1>
-              <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-              <span class="meta">Posted by
-                <a href="#">Start Bootstrap</a>
-                on August 24, 2017</span>
+              <h1>Embed showcase</h1>
+              <h2 class="subheading">This could be the creator blog</h2>
+
             </div>
           </div>
         </div>
@@ -74,18 +52,31 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
+            <h2 class="section-heading">Iframe mini</h2>
+
+            <pre id="to_clip" class="embed_code">&lt;iframe src="https://player.paratii.video/embed/7" width="570" height="320"&gt;&lt;/iframe&gt;</pre>
+            <iframe src="https://player.paratii.video/embed/7" width="570" height="320"></iframe>
+
             <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
-            <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+            <h2 class="section-heading">Iframe tiny</h2>
 
-            <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+            <pre id="to_clip" class="embed_code">&lt;iframe src="https://player.paratii.video/embed/7" width="340" height="190"&gt;&lt;/iframe&gt;</pre>
+            <iframe src="https://player.paratii.video/embed/7" width="340" height="190"></iframe>
 
-            <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 
-            <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+            <h2 class="section-heading">Iframe mini - fullscreen - autoplay - loop</h2>
 
-            <h2 class="section-heading">The Final Frontier</h2>
+            <pre id="to_clip" class="embed_code">&lt;iframe webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://player.paratii.video/embed/7?autoplay=1&amp;loop=1" width="570" height="320"&gt;&lt;/iframe&gt;</pre>
+            <iframe webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://player.paratii.video/embed/7?autoplay=1&loop=1" width="570" height="320"></iframe>
 
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <h2 class="section-heading">Iframe mini - playinline (iOS)</h2>
+
+            <pre id="to_clip" class="embed_code">&lt;iframe src="https://player.paratii.video/embed/7?playinline=1" width="570" height="320"&gt;&lt;/iframe&gt;</pre>
+            <iframe src="https://player.paratii.video/embed/7?playinline=1" width="570" height="320"></iframe>
             <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
 
             <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
