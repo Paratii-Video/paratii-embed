@@ -564,7 +564,7 @@ body.no-scroll {
 }
 .around-copyright {
     font-weight: 300;
-    left: -4.3vw;
+    left: -2.3vw;
     position: fixed;
     top: 50%;
     -webkit-transform: translate3d(0, -50%, 0) rotate(-90deg);
