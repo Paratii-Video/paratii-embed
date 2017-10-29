@@ -44,7 +44,7 @@ use loop=1 in query parameters
 
 
 ### Sizes and features optimizations
-Available mode are:
+Available modes are:
 
 * _mini_: optimized above 570 pixel width
 * _tiny_: optimized above 340 pixel width
@@ -58,7 +58,7 @@ use type=<mode> in query parameters
 
 ### Playinline (iOS)
 
-Allow to play video inline, video will not automatically enter fullscreen mode when playback begins.
+Video will not automatically enter fullscreen mode when playback begins.
 
 
 
