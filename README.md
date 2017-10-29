@@ -50,8 +50,6 @@ _mini_: optimized above 570 pixel width
 _tiny_: optimized above 340 pixel width
 
 
-
-
 ```
 use type=<mode> in query parameters
 
