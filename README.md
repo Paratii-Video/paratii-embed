@@ -1,31 +1,107 @@
-# Embedding and Sharing the player and oEmbed service
+# Embedding and Sharing
 
 ## Embedding
-The player is optimized for **embedding** into iframe using a specific address like:
 
-	http://localhost:3000/embed/video_id
+The player is optimized for iframe **embedding** using a specific address like:
 
-Embedding customizer is available within the app.
-The customizer manages: **fullscreen capability**, **autoplay flag**, **loop flag**, **sizes type** (mini or tiny), **playinline** (iOS) flag
+https://staging.paratii.video/embed/<video_id>
 
-	`<iframe webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="http://localhost:3000/embed/7?autoplay=1&loop=1&playinline=1" width="570" height="320"></iframe>`
 
-Showcases:
+### Embed code (full features) example:
 
-<a href="https://paratii-video.github.io/paratii-embed/embedding.html" target="_blank">https://paratii-video.github.io/paratii-embed/embedding.html</a>
+`<iframe webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="https://staging.paratii.video/embed/6?autoplay=1&loop=1&playsinline=1&fullscreen=1&type=mini" width="570" height="320" frameborder="0"></iframe>`
+
+### Showcase:
+
+<a href="https://paratii-video.github.io/paratii-embed/" target="_blank">https://paratii-video.github.io/paratii-embed/</a>
+
+
+### Fullscreen capability
+
+
+```
+use iframe browser specific attributes and fullscreen=1 in query parameters
+
+```
+
+
+### Autoplay
+
+
+```
+use autoplay=1 in query parameters
+
+```
+
+
+### Loop a video
+
+
+```
+use loop=1 in query parameters
+
+```
+
+
+### Sizes and features optimizations
+Available mode are:
+
+_mini_: optimized above 570 pixel width
+_tiny_: optimized above 340 pixel width
+
+
+
+
+```
+use type=<mode> in query parameters
+
+```
+
+
+### Playinline (iOS)
+
+Allow to play video inline, video will not automatically enter fullscreen mode when playback begins.
+
+
+
+```
+use playsinline=1 in query parameters
+
+```
+
+
+
+## oEmbed and Wordpress
+
+Player is available for oEmbed at:
+
+https://staging.paratii.video/oembed
+
+We are working on submission to most popular oEmbed providers.
+
+I order to add Paratii as oembed provider, and embed it easily, in your Wordpress site you can add the following snippet inside functions.php
+
+```
+wp_oembed_add_provider( "https://player.paratii.video/play/*", "https://player.paratii.video/oembed/" );
+```
+
+or you can just <a href="https://github.com/Paratii-Video/paratii-embed/raw/master/wordpress/paratii-oembed.zip">download</a> and <a href="https://codex.wordpress.org/Managing_Plugins">install</a> our plugin.
+
+Just copy and paste the video url in the editor and ualà!
+
+
 
 ## Sharing
 
-Supported / partially supported:
-- **twitter card**
-- **facebook og**
+### Twitter Card
 
-Showcases:
+Tweeted videos will play directly inside your timeline using Paratii Player.
+Look & feel can be tested pasting a video url at <a href="https://cards-dev.twitter.com/validator">https://cards-dev.twitter.com/validator</a>
 
-<a href="https://paratii-video.github.io/paratii-embed/sharing.html" target="_blank">https://paratii-video.github.io/paratii-embed/sharing.html</a>
+### Telegram
 
-## oEmbed
+Shared videos will play directly inside Telegram Mobile app
 
-Showcases:
+### Facebook Open Graph
 
-<a href="https://paratii-video.github.io/paratii-embed/oEmbed.html" target="_blank">https://paratii-video.github.io/paratii-embed/oEmbed.html</a>
+Videos play inside feed, using IPFS Paratii Gateway, just if posted as a post comment.
