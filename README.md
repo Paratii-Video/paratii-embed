@@ -46,8 +46,8 @@ use loop=1 in query parameters
 ### Sizes and features optimizations
 Available mode are:
 
-> _mini_: optimized above 570 pixel width
-> _tiny_: optimized above 340 pixel width
+* _mini_: optimized above 570 pixel width
+* _tiny_: optimized above 340 pixel width
 
 
 ```
