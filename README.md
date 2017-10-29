@@ -1,4 +1,4 @@
-# Embedding and Sharing
+# Paratii Player - Embedding and Sharing <img align="right" height="80" src="https://i.imgur.com/vNoLqaG.png">
 
 ## Embedding
 
