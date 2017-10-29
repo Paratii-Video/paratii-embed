@@ -79,7 +79,7 @@ Mini version (570x320) is provided by default.
 
 We are working on submission to most popular oEmbed providers.
 
-I order to add Paratii as oembed provider, and embed it easily, in your Wordpress site you can add the following snippet inside functions.php
+I order to add Paratii as oembed provider in your Wordpress site, and embed it easily, you can add the following snippet inside functions.php
 
 ```
 wp_oembed_add_provider( "https://player.paratii.video/play/*", "https://player.paratii.video/oembed/" );
