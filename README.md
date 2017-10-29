@@ -95,8 +95,9 @@ Just copy and paste the video url in the editor and ualà!
 
 ### Twitter Card
 
-Tweeted videos will play directly inside your timeline insede Paratii Player.
+Tweeted videos will play directly inside your timeline using Paratii Player.
 Look & feel can be tested pasting a video url at <a href="https://cards-dev.twitter.com/validator">https://cards-dev.twitter.com/validator</a>
+
 ### Telegram
 
 Shared videos will play directly inside Telegram Mobile app
