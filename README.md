@@ -75,6 +75,8 @@ Player is available for oEmbed at:
 
 https://staging.paratii.video/oembed
 
+Mini version (570x320) is provided by default.
+
 We are working on submission to most popular oEmbed providers.
 
 I order to add Paratii as oembed provider, and embed it easily, in your Wordpress site you can add the following snippet inside functions.php
