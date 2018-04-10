@@ -82,7 +82,7 @@ We are working on submission to most popular oEmbed providers.
 I order to add Paratii as oembed provider in your Wordpress site, and embed it easily, you can add the following snippet inside functions.php
 
 ```
-wp_oembed_add_provider( "https://player.paratii.video/play/*", "https://player.paratii.video/oembed/" );
+wp_oembed_add_provider( "https://portal.paratii.video/play/*", "https://portal.paratii.video/oembed/" );
 ```
 
 or you can just <a href="https://github.com/Paratii-Video/paratii-embed/raw/master/wordpress/paratii-oembed.zip">download</a> and <a href="https://codex.wordpress.org/Managing_Plugins">install</a> our plugin.
